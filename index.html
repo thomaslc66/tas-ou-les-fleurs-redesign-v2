@@ -1,0 +1,2297 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>T'as où les fleurs — Fleuriste artisanal à Fully, Valais</title>
+  <meta name="description" content="Fleuriste artisanal à Fully. Bouquets, mariages, deuil, livraison Valais central. Noté 4.8/5 sur 56 avis. Appelez le 027 746 46 82.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://tasoulesfleurs.ch/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_CH">
+  <meta property="og:title" content="T'as où les fleurs — Fleuriste artisanal à Fully, Valais">
+  <meta property="og:description" content="Fleuriste artisanal à Fully. Bouquets, mariages, deuil, livraison Valais central. Noté 4.8/5 sur 56 avis.">
+  <meta property="og:url" content="https://tasoulesfleurs.ch/">
+  <meta property="og:image" content="https://images.pexels.com/photos/28202387/pexels-photo-28202387.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+  <meta property="og:image:alt" content="Bouquets de fleurs artisanaux — T'as où les fleurs, Fully Valais">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+  <!-- Schema.org JSON-LD Florist -->
+  <!-- NOTE DÉVELOPPEUR : Horaires à confirmer avec le client avant mise en ligne -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Florist",
+    "name": "T'as où les fleurs",
+    "description": "Fleuriste artisanal à Fully, Valais. Bouquets sur mesure, fleurs de mariage, deuil, plantes et livraison dans le Valais central.",
+    "url": "https://tasoulesfleurs.ch/",
+    "image": "https://images.pexels.com/photos/28202387/pexels-photo-28202387.jpeg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rue de l'Eglise 1",
+      "addressLocality": "Fully",
+      "postalCode": "1926",
+      "addressRegion": "Valais",
+      "addressCountry": "CH"
+    },
+    "telephone": "+41277464682",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "56",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 46.1287,
+      "longitude": 7.1092
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "08:00", "closes": "12:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "13:30", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday"], "opens": "08:00", "closes": "12:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday"], "opens": "13:30", "closes": "18:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "08:00", "closes": "12:00" }
+    ],
+    "priceRange": "CHF"
+  }
+  </script>
+
+  <style>
+    /* ============================================================
+       CSS CUSTOM PROPERTIES — T'as où les fleurs
+       Palette : Vert vignoble (#4A7C59) + Abricot valaisan (#F2A65A)
+       Tous les textes passent WCAG AA minimum sur leurs fonds.
+       ============================================================ */
+    :root {
+      /* Vert vignoble */
+      --color-primary:        #4A7C59;
+      --color-primary-dark:   #1F3D2B;
+      --color-primary-hover:  #3D6849;
+      --color-primary-light:  #6B9E7A;
+      --color-primary-xlight: #C8DDD1;
+      /* Abricot valaisan */
+      --color-secondary:      #F2A65A;
+      --color-secondary-dark: #C4823A;
+      /* Terracotta */
+      --color-accent:         #D4845A;
+      /* Surfaces */
+      --color-surface:        #FFFFFF;
+      --color-surface-alt:    #FAF8F3;
+      --color-bg:             #F0EAE0;
+      /* Textes */
+      --color-text-primary:   #1A2E22;
+      --color-text-secondary: #3D5947;
+      --color-text-muted:     #5C7A6B;
+      --color-text-on-dark:   #F5F0E8;
+      /* Bordures */
+      --color-border:         #D5D0C5;
+      --color-border-subtle:  #EAE6DE;
+      /* Overlays */
+      --color-overlay-hero-gradient: linear-gradient(to bottom, rgba(31,61,43,0.30) 0%, rgba(31,61,43,0.62) 100%);
+      /* Sections thématiques */
+      --color-mariage-bg:     #1F3D2B;
+      --color-reassurance-bg: #4A7C59;
+      --color-footer-bg:      #1F3D2B;
+      /* États sémantiques */
+      --color-error:          #DC2626;
+      --color-error-light:    #FEF2F2;
+      --color-success:        #15803D;
+      --color-success-light:  #F0FDF4;
+
+      /* Typographie */
+      --font-heading: 'Fraunces', Georgia, serif;
+      --font-body:    'DM Sans', system-ui, sans-serif;
+      --font-accent:  'Playfair Display', Georgia, serif;
+      --text-xs:   0.75rem;
+      --text-sm:   0.875rem;
+      --text-base: 1rem;
+      --text-lg:   1.125rem;
+      --text-xl:   1.25rem;
+      --text-2xl:  1.5rem;
+      --text-3xl:  1.875rem;
+      --text-4xl:  2.25rem;
+      --text-5xl:  3rem;
+      --text-6xl:  3.75rem;
+      --font-medium:   500;
+      --font-semibold: 600;
+      --font-bold:     700;
+      --leading-tight:   1.2;
+      --leading-snug:    1.35;
+      --leading-normal:  1.55;
+      --leading-relaxed: 1.7;
+      --tracking-tight:   -0.03em;
+      --tracking-snug:    -0.015em;
+      --tracking-wide:    0.025em;
+      --tracking-wider:   0.06em;
+      --tracking-widest:  0.12em;
+
+      /* Espacements */
+      --space-1:  0.25rem;
+      --space-2:  0.5rem;
+      --space-3:  0.75rem;
+      --space-4:  1rem;
+      --space-5:  1.25rem;
+      --space-6:  1.5rem;
+      --space-8:  2rem;
+      --space-10: 2.5rem;
+      --space-12: 3rem;
+      --space-16: 4rem;
+      --space-20: 5rem;
+      --section-py:      5rem;
+      --section-py-lg:   7rem;
+      --container-px:    1.5rem;
+      --container-px-lg: 2.5rem;
+      --container-max:   1280px;
+
+      /* Rayons */
+      --radius-sm:   4px;
+      --radius-md:   8px;
+      --radius-lg:   14px;
+      --radius-xl:   20px;
+      --radius-2xl:  28px;
+      --radius-full: 9999px;
+
+      /* Ombres */
+      --shadow-sm:        0 1px 3px rgba(26,46,34,0.08), 0 1px 2px rgba(26,46,34,0.06);
+      --shadow-md:        0 4px 12px rgba(26,46,34,0.10), 0 2px 6px rgba(26,46,34,0.06);
+      --shadow-lg:        0 8px 24px rgba(26,46,34,0.12), 0 4px 10px rgba(26,46,34,0.06);
+      --shadow-xl:        0 16px 48px rgba(26,46,34,0.14), 0 8px 20px rgba(26,46,34,0.08);
+      --shadow-primary:   0 4px 20px rgba(74,124,89,0.30);
+      --shadow-secondary: 0 4px 20px rgba(242,166,90,0.40);
+
+      /* Animations */
+      --duration-fast:   150ms;
+      --duration-normal: 250ms;
+      --duration-slow:   400ms;
+      --duration-slower: 600ms;
+      --ease-default: cubic-bezier(0.4, 0, 0.2, 1);
+      --ease-out:     cubic-bezier(0, 0, 0.2, 1);
+      --ease-organic: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      --transition:      all var(--duration-normal) var(--ease-default);
+      --transition-fast: all var(--duration-fast)   var(--ease-default);
+
+      /* Z-index */
+      --z-floating-cta: 80;
+      --z-nav:          100;
+
+      /* Composants */
+      --nav-height:        72px;
+      --nav-height-mobile: 64px;
+      --floating-cta-height: 64px;
+
+      --input-border-focus: var(--color-primary);
+      --input-ring-focus:   0 0 0 3px rgba(74,124,89,0.20);
+      --input-radius:       var(--radius-md);
+      --input-padding:      0.75rem 1rem;
+      --input-placeholder:  var(--color-text-muted);
+
+      --gallery-gap:           0.5rem;
+      --gallery-gap-lg:        1rem;
+      --gallery-radius:        var(--radius-md);
+      --gallery-overlay-hover: rgba(31,61,43,0.40);
+      --gallery-caption-bg:    rgba(31,61,43,0.75);
+    }
+
+    /* ============================================================
+       RESET
+       ============================================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+    body {
+      font-family: var(--font-body);
+      color: var(--color-text-primary);
+      background-color: var(--color-bg);
+      line-height: var(--leading-normal);
+      -webkit-font-smoothing: antialiased;
+    }
+    img { max-width: 100%; height: auto; display: block; }
+    ul, ol { list-style: none; }
+    a { color: var(--color-primary); text-decoration: none; transition: color var(--duration-fast) var(--ease-default); }
+    a:hover { color: var(--color-primary-dark); }
+
+    /* ============================================================
+       ACCESSIBILITÉ
+       ============================================================ */
+    .skip-link {
+      position: absolute;
+      top: -100%;
+      left: var(--space-4);
+      z-index: 9999;
+      background: var(--color-primary);
+      color: #fff;
+      padding: var(--space-3) var(--space-6);
+      border-radius: 0 0 var(--radius-md) var(--radius-md);
+      font-weight: var(--font-semibold);
+      font-size: var(--text-sm);
+      text-decoration: none;
+    }
+    .skip-link:focus { top: 0; }
+    :focus-visible {
+      outline: 2px solid var(--color-primary);
+      outline-offset: 3px;
+      border-radius: var(--radius-sm);
+    }
+    .sr-only {
+      position: absolute; width: 1px; height: 1px; padding: 0;
+      margin: -1px; overflow: hidden; clip: rect(0,0,0,0);
+      white-space: nowrap; border: 0;
+    }
+
+    /* ============================================================
+       LAYOUT
+       ============================================================ */
+    .container {
+      width: 100%;
+      max-width: var(--container-max);
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: var(--container-px);
+      padding-right: var(--container-px);
+    }
+    @media (min-width: 1024px) {
+      .container {
+        padding-left: var(--container-px-lg);
+        padding-right: var(--container-px-lg);
+      }
+    }
+    .section-py { padding-top: var(--section-py); padding-bottom: var(--section-py); }
+    @media (min-width: 1024px) {
+      .section-py { padding-top: var(--section-py-lg); padding-bottom: var(--section-py-lg); }
+    }
+
+    /* ============================================================
+       TYPOGRAPHIE
+       ============================================================ */
+    h1, h2, h3, h4 {
+      font-family: var(--font-heading);
+      line-height: var(--leading-tight);
+      color: var(--color-text-primary);
+    }
+    h1 {
+      font-size: clamp(var(--text-3xl), 5vw, var(--text-5xl));
+      font-weight: var(--font-bold);
+      letter-spacing: var(--tracking-tight);
+    }
+    h2 {
+      font-size: clamp(var(--text-2xl), 4vw, var(--text-4xl));
+      font-weight: var(--font-semibold);
+      letter-spacing: var(--tracking-snug);
+    }
+    h3 {
+      font-size: clamp(var(--text-xl), 2.5vw, var(--text-2xl));
+      font-weight: var(--font-semibold);
+    }
+    p { line-height: var(--leading-relaxed); }
+    .overline {
+      display: block;
+      font-family: var(--font-body);
+      font-size: var(--text-xs);
+      font-weight: var(--font-medium);
+      letter-spacing: var(--tracking-widest);
+      text-transform: uppercase;
+      color: var(--color-primary);
+      margin-bottom: var(--space-3);
+    }
+
+    /* ============================================================
+       BOUTONS
+       ============================================================ */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-2);
+      padding: 0.75rem 1.75rem;
+      border-radius: var(--radius-full);
+      font-family: var(--font-body);
+      font-size: var(--text-base);
+      font-weight: var(--font-semibold);
+      letter-spacing: var(--tracking-wide);
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      transition: var(--transition);
+      white-space: nowrap;
+      min-height: 44px;
+    }
+    .btn:hover { text-decoration: none; }
+    .btn-primary {
+      background: var(--color-primary);
+      color: #fff;
+    }
+    .btn-primary:hover, .btn-primary:focus-visible {
+      background: var(--color-primary-hover);
+      box-shadow: var(--shadow-primary);
+      color: #fff;
+    }
+    .btn-secondary {
+      background: transparent;
+      color: var(--color-primary);
+      border: 2px solid var(--color-primary);
+    }
+    .btn-secondary:hover, .btn-secondary:focus-visible {
+      background: var(--color-primary);
+      color: #fff;
+    }
+    .btn-phone {
+      background: var(--color-secondary);
+      color: var(--color-text-primary);
+      box-shadow: var(--shadow-secondary);
+      font-weight: var(--font-bold);
+    }
+    .btn-phone:hover, .btn-phone:focus-visible {
+      background: var(--color-secondary-dark);
+      color: #fff;
+    }
+    .btn-ghost {
+      background: transparent;
+      color: #fff;
+      border: 1.5px solid rgba(255,255,255,0.5);
+    }
+    .btn-ghost:hover, .btn-ghost:focus-visible {
+      background: rgba(255,255,255,0.12);
+      border-color: rgba(255,255,255,0.8);
+      color: #fff;
+    }
+    .btn-sm { padding: 0.5rem 1.25rem; font-size: var(--text-sm); min-height: 38px; }
+    .btn-link {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--text-sm);
+      font-weight: var(--font-semibold);
+      color: var(--color-primary);
+      background: none;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      transition: var(--transition-fast);
+      text-decoration: none;
+    }
+    .btn-link:hover { color: var(--color-primary-dark); gap: var(--space-3); }
+
+    /* Badge notation */
+    .badge-rating {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      background: var(--color-secondary);
+      color: var(--color-text-primary);
+      padding: 0.375rem 1rem;
+      border-radius: var(--radius-full);
+      font-size: var(--text-sm);
+      font-weight: var(--font-bold);
+      box-shadow: var(--shadow-secondary);
+    }
+
+    /* ============================================================
+       NAVIGATION
+       ============================================================ */
+    #header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: var(--z-nav);
+      height: var(--nav-height-mobile);
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid transparent;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+    }
+    @media (min-width: 1024px) { #header { height: var(--nav-height); } }
+    #header.scrolled {
+      background: var(--color-surface);
+      border-bottom-color: var(--color-border-subtle);
+      box-shadow: var(--shadow-md);
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+      width: 100%;
+    }
+    .nav-logo {
+      font-family: var(--font-heading);
+      font-style: italic;
+      font-weight: var(--font-bold);
+      font-size: var(--text-xl);
+      color: var(--color-primary);
+      letter-spacing: var(--tracking-snug);
+      text-decoration: none;
+      flex-shrink: 0;
+      line-height: 1.2;
+    }
+    @media (min-width: 1024px) { .nav-logo { font-size: var(--text-2xl); } }
+    .nav-logo:hover { color: var(--color-primary-dark); text-decoration: none; }
+
+    .nav-links { display: none; align-items: center; }
+    @media (min-width: 1024px) { .nav-links { display: flex; } }
+    .nav-links a {
+      font-size: 0.9375rem;
+      font-weight: var(--font-medium);
+      color: var(--color-text-primary);
+      padding: var(--space-2) var(--space-3);
+      border-radius: var(--radius-md);
+      transition: var(--transition-fast);
+      text-decoration: none;
+    }
+    .nav-links a:hover, .nav-links a.active { color: var(--color-primary); }
+
+    .nav-actions { display: none; align-items: center; gap: var(--space-4); }
+    @media (min-width: 1024px) { .nav-actions { display: flex; } }
+    .nav-phone {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: var(--text-sm);
+      font-weight: var(--font-medium);
+      color: var(--color-text-secondary);
+      text-decoration: none;
+    }
+    .nav-phone:hover { color: var(--color-primary); text-decoration: none; }
+    .nav-phone svg { color: var(--color-primary); flex-shrink: 0; }
+
+    /* Hamburger */
+    .nav-hamburger {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      width: 44px;
+      height: 44px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: var(--space-2);
+      border-radius: var(--radius-md);
+      flex-shrink: 0;
+    }
+    @media (min-width: 1024px) { .nav-hamburger { display: none; } }
+    .nav-hamburger span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: var(--color-text-primary);
+      border-radius: var(--radius-full);
+      transition: var(--transition);
+      transform-origin: center;
+    }
+    .nav-hamburger[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger[aria-expanded="true"] span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+    .nav-hamburger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* Menu mobile */
+    .nav-mobile {
+      position: fixed;
+      inset: 0;
+      top: var(--nav-height-mobile);
+      background: var(--color-surface);
+      z-index: calc(var(--z-nav) - 1);
+      display: flex;
+      flex-direction: column;
+      padding: var(--space-8) var(--space-6) var(--space-12);
+      transform: translateX(100%);
+      transition: transform var(--duration-slow) var(--ease-out);
+      overflow-y: auto;
+    }
+    @media (min-width: 1024px) { .nav-mobile { display: none !important; } }
+    .nav-mobile.open { transform: translateX(0); }
+    .nav-mobile-links { display: flex; flex-direction: column; }
+    .nav-mobile-links a {
+      display: block;
+      font-family: var(--font-heading);
+      font-weight: var(--font-semibold);
+      font-size: var(--text-2xl);
+      color: var(--color-text-primary);
+      padding: var(--space-4) 0;
+      border-bottom: 1px solid var(--color-border-subtle);
+      text-decoration: none;
+      transition: var(--transition-fast);
+    }
+    .nav-mobile-links a:hover { color: var(--color-primary); padding-left: var(--space-2); }
+    .nav-mobile-cta {
+      margin-top: var(--space-8);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+    }
+
+    /* ============================================================
+       HERO
+       ============================================================ */
+    .hero {
+      position: relative;
+      min-height: 90vh;
+      min-height: 90dvh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background-color: var(--color-primary-dark);
+      padding-top: var(--nav-height-mobile);
+    }
+    @media (min-width: 1024px) {
+      .hero { min-height: min(100vh, 920px); padding-top: var(--nav-height); }
+    }
+    .hero-image {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 40%;
+    }
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: var(--color-overlay-hero-gradient);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      padding: var(--space-12) 0 var(--space-16);
+      text-align: center;
+    }
+    .hero-inner { max-width: 800px; margin: 0 auto; }
+    .hero-overline {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-3);
+      font-size: var(--text-xs);
+      font-weight: var(--font-medium);
+      letter-spacing: var(--tracking-widest);
+      text-transform: uppercase;
+      color: var(--color-secondary);
+      margin-bottom: var(--space-5);
+    }
+    .hero-overline::before, .hero-overline::after {
+      content: '';
+      display: block;
+      width: 24px;
+      height: 1px;
+      background: var(--color-secondary);
+      opacity: 0.6;
+    }
+    .hero h1 { color: #fff; margin-bottom: var(--space-5); text-shadow: 0 2px 12px rgba(0,0,0,0.25); }
+    .hero-accroche {
+      font-family: var(--font-accent);
+      font-style: italic;
+      font-size: clamp(var(--text-xl), 2.5vw, var(--text-2xl));
+      color: var(--color-secondary);
+      margin-bottom: var(--space-5);
+    }
+    .hero-subtitle {
+      font-size: clamp(var(--text-base), 1.5vw, var(--text-lg));
+      color: var(--color-text-on-dark);
+      line-height: var(--leading-relaxed);
+      margin-bottom: var(--space-8);
+      opacity: 0.9;
+    }
+    .hero-badge { margin-bottom: var(--space-8); }
+    .hero-ctas { display: flex; flex-wrap: wrap; gap: var(--space-4); justify-content: center; }
+
+    /* ============================================================
+       BANDEAU RÉASSURANCE
+       ============================================================ */
+    .reassurance { background: var(--color-reassurance-bg); padding: var(--space-12) 0; }
+    .reassurance-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--space-8) var(--space-4);
+    }
+    @media (min-width: 768px) { .reassurance-grid { grid-template-columns: repeat(4, 1fr); gap: var(--space-6); } }
+    .reassurance-item { display: flex; flex-direction: column; align-items: center; text-align: center; gap: var(--space-3); }
+    .reassurance-icon-wrap {
+      width: 3rem; height: 3rem;
+      background: rgba(255,255,255,0.15);
+      border-radius: var(--radius-full);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--color-secondary);
+    }
+    .reassurance-icon-wrap svg { width: 1.5rem; height: 1.5rem; }
+    .reassurance-title { font-size: var(--text-base); font-weight: var(--font-semibold); color: #fff; line-height: var(--leading-snug); }
+    .reassurance-text { font-size: var(--text-sm); color: rgba(245,240,232,0.75); line-height: var(--leading-normal); }
+
+    /* ============================================================
+       SECTION À PROPOS
+       ============================================================ */
+    .about { background: var(--color-bg); }
+    .about-inner { display: grid; grid-template-columns: 1fr; gap: var(--space-12); align-items: center; }
+    @media (min-width: 768px) { .about-inner { grid-template-columns: 1fr 1fr; gap: var(--space-16); } }
+    .about-text h2 { margin-bottom: var(--space-4); }
+    .about-lead {
+      font-family: var(--font-accent);
+      font-style: italic;
+      font-size: var(--text-lg);
+      color: var(--color-text-secondary);
+      margin-bottom: var(--space-5);
+      line-height: var(--leading-relaxed);
+    }
+    .about-text p { color: var(--color-text-secondary); margin-bottom: var(--space-4); }
+    .about-text p:last-of-type { margin-bottom: var(--space-8); }
+    .about-visual { position: relative; }
+    .about-image {
+      width: 100%; height: 420px;
+      object-fit: cover;
+      border-radius: var(--radius-2xl);
+      box-shadow: var(--shadow-xl);
+    }
+    @media (min-width: 768px) { .about-image { height: 520px; } }
+    .about-badge {
+      position: absolute;
+      bottom: var(--space-6); right: var(--space-6);
+      background: var(--color-surface);
+      border-radius: var(--radius-xl);
+      padding: var(--space-4) var(--space-5);
+      box-shadow: var(--shadow-xl);
+      text-align: center;
+    }
+    @media (min-width: 768px) { .about-badge { right: calc(-1 * var(--space-5)); } }
+    .about-badge-number { font-family: var(--font-heading); font-size: var(--text-3xl); font-weight: var(--font-bold); color: var(--color-primary); line-height: 1; }
+    .about-badge-stars { color: var(--color-secondary); font-size: var(--text-sm); letter-spacing: 1px; }
+    .about-badge-label { font-size: var(--text-xs); color: var(--color-text-muted); margin-top: var(--space-1); }
+
+    /* ============================================================
+       SECTION PRESTATIONS
+       ============================================================ */
+    .services { background: var(--color-surface-alt); }
+    .services-header { text-align: center; margin-bottom: var(--space-12); }
+    .services-header h2 { margin-bottom: var(--space-4); }
+    .services-header .subtitle { font-size: var(--text-lg); color: var(--color-text-secondary); max-width: 600px; margin: 0 auto; line-height: var(--leading-relaxed); }
+    .services-grid { display: grid; grid-template-columns: 1fr; gap: var(--space-5); }
+    @media (min-width: 640px) { .services-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1024px) { .services-grid { grid-template-columns: repeat(3, 1fr); } }
+    .service-card {
+      background: var(--color-surface);
+      border-radius: var(--radius-lg);
+      padding: var(--space-8) var(--space-6);
+      border: 1px solid var(--color-border-subtle);
+      box-shadow: var(--shadow-md);
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+    .service-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: var(--color-secondary);
+    }
+    .service-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+    .service-icon {
+      width: 3.5rem; height: 3.5rem;
+      background: var(--color-primary-xlight);
+      border-radius: var(--radius-lg);
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: var(--space-5);
+      color: var(--color-primary);
+    }
+    .service-icon svg { width: 1.75rem; height: 1.75rem; }
+    .service-card h3 { font-size: var(--text-lg); color: var(--color-primary-dark); margin-bottom: var(--space-3); }
+    .service-card p { font-size: var(--text-sm); color: var(--color-text-secondary); line-height: var(--leading-relaxed); margin-bottom: var(--space-5); }
+    .services-footer { text-align: center; margin-top: var(--space-12); }
+
+    /* ============================================================
+       SECTION MARIAGE
+       ============================================================ */
+    .mariage { background: var(--color-mariage-bg); }
+    .mariage .overline { color: var(--color-secondary); }
+    .mariage h2 { color: var(--color-text-on-dark); margin-bottom: var(--space-4); }
+    .mariage-subtitle {
+      font-family: var(--font-accent);
+      font-style: italic;
+      font-size: clamp(var(--text-lg), 2.5vw, var(--text-xl));
+      color: var(--color-primary-xlight);
+      margin-bottom: var(--space-12);
+    }
+    .mariage-inner { display: grid; grid-template-columns: 1fr; gap: var(--space-12); }
+    @media (min-width: 1024px) { .mariage-inner { grid-template-columns: 1fr 1fr; align-items: start; gap: var(--space-16); } }
+    .mariage-text p { color: var(--color-primary-xlight); margin-bottom: var(--space-5); font-size: var(--text-base); line-height: var(--leading-relaxed); }
+    .mariage-list { display: flex; flex-direction: column; gap: var(--space-2); margin-bottom: var(--space-8); }
+    .mariage-list li {
+      display: flex; align-items: flex-start; gap: var(--space-3);
+      color: var(--color-primary-xlight); font-size: var(--text-sm); line-height: var(--leading-relaxed);
+    }
+    .mariage-list li::before {
+      content: '';
+      display: block; width: 6px; height: 6px;
+      background: var(--color-secondary);
+      border-radius: var(--radius-full);
+      margin-top: 0.4rem; flex-shrink: 0;
+    }
+    .mariage-ctas { display: flex; flex-wrap: wrap; gap: var(--space-4); }
+    .mariage-gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-3); }
+    .mariage-gallery img { width: 100%; height: 160px; object-fit: cover; border-radius: var(--radius-lg); }
+    .mariage-gallery img:first-child { grid-column: span 3; height: 280px; }
+    @media (min-width: 1024px) { .mariage-gallery img { height: 170px; } .mariage-gallery img:first-child { height: 260px; } }
+
+    /* ============================================================
+       SECTION DEUIL
+       ============================================================ */
+    .deuil { background: #fff; border-top: 1px solid var(--color-border-subtle); }
+    .deuil-inner { display: grid; grid-template-columns: 1fr; gap: var(--space-10); align-items: center; }
+    @media (min-width: 768px) {
+      .deuil-inner { grid-template-columns: 1fr 1fr; gap: var(--space-16); }
+      .deuil-visual { order: -1; }
+    }
+    .deuil .overline { color: var(--color-text-muted); }
+    .deuil h2 { color: var(--color-text-primary); margin-bottom: var(--space-4); }
+    .deuil-subtitle { font-family: var(--font-accent); font-style: italic; font-size: var(--text-lg); color: var(--color-text-secondary); margin-bottom: var(--space-6); }
+    .deuil-text p { color: var(--color-text-secondary); margin-bottom: var(--space-4); }
+    .deuil-text p:last-of-type { margin-bottom: var(--space-8); }
+    .deuil-images { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4); }
+    .deuil-images img { width: 100%; height: 220px; object-fit: cover; border-radius: var(--radius-lg); filter: grayscale(15%) brightness(0.97); }
+    .deuil-images img:first-child { grid-column: span 2; height: 280px; }
+
+    /* ============================================================
+       GALERIE
+       ============================================================ */
+    .gallery-section { background: var(--color-bg); }
+    .gallery-header { text-align: center; margin-bottom: var(--space-8); }
+    .gallery-header h2 { margin-bottom: var(--space-4); }
+    .gallery-header .subtitle { font-size: var(--text-base); color: var(--color-text-secondary); max-width: 600px; margin: 0 auto; }
+    .gallery-filters { display: flex; flex-wrap: wrap; gap: var(--space-2); justify-content: center; margin-bottom: var(--space-8); }
+    .gallery-filter-btn {
+      background: transparent;
+      color: var(--color-text-secondary);
+      border: 1.5px solid var(--color-border);
+      border-radius: var(--radius-full);
+      padding: var(--space-2) var(--space-5);
+      font-size: var(--text-sm);
+      font-weight: var(--font-semibold);
+      font-family: var(--font-body);
+      cursor: pointer;
+      transition: var(--transition);
+      min-height: 44px;
+    }
+    .gallery-filter-btn:hover, .gallery-filter-btn.active {
+      background: var(--color-primary);
+      color: #fff;
+      border-color: var(--color-primary);
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--gallery-gap);
+    }
+    @media (min-width: 640px) { .gallery-grid { grid-template-columns: repeat(3, 1fr); gap: calc(var(--gallery-gap) * 1.5); } }
+    @media (min-width: 1024px) { .gallery-grid { grid-template-columns: repeat(4, 1fr); gap: var(--gallery-gap-lg); } }
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: var(--gallery-radius);
+      aspect-ratio: 1 / 1;
+      background: var(--color-surface-alt);
+    }
+    .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--duration-slow) var(--ease-organic); }
+    .gallery-item:hover img { transform: scale(1.06); }
+    .gallery-item-overlay {
+      position: absolute; inset: 0;
+      background: var(--gallery-overlay-hover);
+      opacity: 0; transition: var(--transition);
+      display: flex; align-items: flex-end;
+    }
+    .gallery-item:hover .gallery-item-overlay { opacity: 1; }
+    .gallery-caption {
+      width: 100%; padding: var(--space-3);
+      background: var(--gallery-caption-bg);
+      transform: translateY(100%);
+      transition: transform var(--duration-normal) var(--ease-out);
+    }
+    .gallery-item:hover .gallery-caption { transform: translateY(0); }
+    .gallery-caption p { color: var(--color-text-on-dark); font-size: var(--text-xs); line-height: var(--leading-snug); margin: 0; }
+    .gallery-item.hidden { display: none; }
+    .gallery-footer { text-align: center; margin-top: var(--space-10); }
+    .gallery-footer-note { color: var(--color-text-muted); font-size: var(--text-sm); margin-bottom: var(--space-5); }
+
+    /* ============================================================
+       TÉMOIGNAGES
+       ============================================================ */
+    .testimonials { background: var(--color-surface-alt); }
+    .testimonials-header { text-align: center; margin-bottom: var(--space-6); }
+    .testimonials-header h2 { margin-bottom: var(--space-3); }
+    .testimonials-header .subtitle { font-size: var(--text-base); color: var(--color-text-secondary); }
+    .rating-showcase { text-align: center; margin-bottom: var(--space-12); }
+    .rating-score { font-family: var(--font-heading); font-size: clamp(var(--text-4xl), 8vw, var(--text-6xl)); font-weight: var(--font-bold); color: var(--color-primary-dark); line-height: 1; }
+    .rating-stars { display: flex; justify-content: center; gap: 3px; color: var(--color-secondary); margin: var(--space-2) 0; }
+    .rating-stars svg { width: 1.75rem; height: 1.75rem; }
+    .rating-label { font-size: var(--text-sm); color: var(--color-text-muted); }
+    .testimonials-grid { display: grid; grid-template-columns: 1fr; gap: var(--space-5); }
+    @media (min-width: 768px) { .testimonials-grid { grid-template-columns: repeat(3, 1fr); } }
+    .testimonial-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+    .testimonial-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+    .testimonial-quote-mark { font-size: 3rem; color: var(--color-secondary); line-height: 1; font-family: Georgia, serif; margin-bottom: var(--space-2); display: block; }
+    .testimonial-text { font-family: var(--font-accent); font-style: italic; font-size: var(--text-base); color: var(--color-text-secondary); line-height: var(--leading-relaxed); margin-bottom: var(--space-5); }
+    .testimonial-stars { display: flex; gap: 2px; margin-bottom: var(--space-4); color: var(--color-secondary); }
+    .testimonial-stars svg { width: 1rem; height: 1rem; }
+    .testimonial-author { font-weight: var(--font-semibold); color: var(--color-primary-dark); font-size: var(--text-sm); }
+    .testimonial-location { font-size: var(--text-xs); color: var(--color-text-muted); margin-top: var(--space-1); }
+    .testimonials-footer { text-align: center; margin-top: var(--space-10); }
+
+    /* ============================================================
+       CONTACT
+       ============================================================ */
+    .contact { background: var(--color-bg); }
+    .contact-header { text-align: center; margin-bottom: var(--space-12); }
+    .contact-header h2 { margin-bottom: var(--space-4); }
+    .contact-header .subtitle { font-size: var(--text-lg); color: var(--color-text-secondary); }
+    .contact-grid {
+      display: grid; grid-template-columns: 1fr; gap: var(--space-6);
+    }
+    @media (min-width: 768px) { .contact-grid { grid-template-columns: 1fr 1fr; } }
+    @media (min-width: 1200px) { .contact-grid { grid-template-columns: 1fr 1fr 1.6fr; } }
+
+    .contact-info-card, .horaires-card, .contact-form-card {
+      background: var(--color-surface);
+      border-radius: var(--radius-xl);
+      padding: var(--space-8);
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--color-border-subtle);
+    }
+    @media (min-width: 768px) { .contact-form-card { grid-column: 1 / -1; } }
+    @media (min-width: 1200px) { .contact-form-card { grid-column: auto; } }
+
+    .contact-info-card h3, .horaires-card h3, .contact-form-card h3 {
+      font-size: var(--text-xl); color: var(--color-primary-dark); margin-bottom: var(--space-6);
+    }
+    .contact-detail { display: flex; align-items: flex-start; gap: var(--space-3); margin-bottom: var(--space-5); }
+    .contact-detail:last-child { margin-bottom: 0; }
+    .contact-detail-icon {
+      width: 2.5rem; height: 2.5rem;
+      background: var(--color-primary-xlight);
+      border-radius: var(--radius-md);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--color-primary); flex-shrink: 0;
+    }
+    .contact-detail-icon svg { width: 1.125rem; height: 1.125rem; }
+    .contact-detail-label {
+      display: block;
+      font-size: var(--text-xs); font-weight: var(--font-semibold);
+      color: var(--color-text-muted);
+      letter-spacing: var(--tracking-wider);
+      text-transform: uppercase; margin-bottom: var(--space-1);
+    }
+    .contact-detail-value { font-size: var(--text-sm); color: var(--color-text-primary); font-weight: var(--font-medium); line-height: var(--leading-normal); }
+    .contact-detail-value a { color: var(--color-text-primary); }
+    .contact-detail-value a:hover { color: var(--color-primary); }
+
+    /* Horaires */
+    .horaires-list { display: flex; flex-direction: column; }
+    .horaires-row {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: var(--space-2) 0;
+      border-bottom: 1px solid var(--color-border-subtle);
+      font-size: var(--text-sm);
+    }
+    .horaires-row:last-child { border-bottom: none; }
+    .horaires-day { font-weight: var(--font-semibold); color: var(--color-text-primary); }
+    .horaires-time { color: var(--color-text-secondary); text-align: right; }
+    .horaires-ferme { color: var(--color-text-muted); }
+    .horaires-note { font-size: var(--text-xs); color: var(--color-text-muted); margin-top: var(--space-4); font-style: italic; line-height: var(--leading-relaxed); }
+
+    /* Formulaire */
+    .contact-form { display: flex; flex-direction: column; gap: var(--space-4); }
+    .form-row { display: grid; grid-template-columns: 1fr; gap: var(--space-4); }
+    @media (min-width: 480px) { .form-row { grid-template-columns: 1fr 1fr; } }
+    .form-group { display: flex; flex-direction: column; gap: var(--space-2); }
+    .form-group label { font-size: var(--text-sm); font-weight: var(--font-semibold); color: var(--color-text-primary); }
+    .required-mark { color: var(--color-error); margin-left: 2px; }
+    .form-group input, .form-group select, .form-group textarea {
+      background: #fff;
+      border: 1px solid var(--color-border);
+      border-radius: var(--input-radius);
+      padding: var(--input-padding);
+      font-family: var(--font-body);
+      font-size: var(--text-base);
+      color: var(--color-text-primary);
+      width: 100%;
+      transition: border-color var(--duration-fast) var(--ease-default), box-shadow var(--duration-fast) var(--ease-default);
+      appearance: none; -webkit-appearance: none;
+    }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+      outline: none;
+      border-color: var(--input-border-focus);
+      box-shadow: var(--input-ring-focus);
+    }
+    .form-group input::placeholder, .form-group textarea::placeholder { color: var(--input-placeholder); }
+    .form-group select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%235C7A6B' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 1rem center;
+      padding-right: 2.5rem;
+    }
+    .form-group textarea { resize: vertical; min-height: 120px; }
+    .form-submit-row { display: flex; }
+    .form-submit-row .btn { width: 100%; justify-content: center; }
+    @media (min-width: 480px) { .form-submit-row .btn { width: auto; } }
+    .form-success {
+      display: none;
+      background: var(--color-success-light);
+      border: 1px solid var(--color-success);
+      border-radius: var(--radius-md);
+      padding: var(--space-5) var(--space-6);
+      color: var(--color-success);
+      font-weight: var(--font-medium);
+      text-align: center;
+      line-height: var(--leading-relaxed);
+    }
+    .form-success a { color: var(--color-success); font-weight: var(--font-bold); }
+
+    /* Carte */
+    .map-section { margin-top: var(--space-12); }
+    .map-section h3 { font-size: var(--text-xl); color: var(--color-primary-dark); margin-bottom: var(--space-5); display: flex; align-items: center; gap: var(--space-2); }
+    .map-consent-wrapper {
+      background: var(--color-surface-alt);
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      min-height: 350px;
+      display: flex; align-items: center; justify-content: center;
+      border: 1px solid var(--color-border);
+      position: relative;
+    }
+    .map-consent-poster { text-align: center; padding: var(--space-10); }
+    .map-consent-icon {
+      width: 4rem; height: 4rem;
+      background: var(--color-primary-xlight);
+      border-radius: var(--radius-full);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--color-primary);
+      margin: 0 auto var(--space-4);
+    }
+    .map-consent-poster h4 { font-size: var(--text-lg); color: var(--color-primary-dark); margin-bottom: var(--space-2); }
+    .map-consent-poster p { font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-6); max-width: 360px; margin-left: auto; margin-right: auto; }
+    .map-iframe { display: none; width: 100%; height: 400px; border: 0; }
+    .map-iframe.loaded { display: block; }
+    .map-credit { font-size: var(--text-xs); color: var(--color-text-muted); margin-top: var(--space-2); }
+
+    /* ============================================================
+       FAQ ACCORDÉON
+       ============================================================ */
+    .faq { background: var(--color-surface-alt); border-top: 1px solid var(--color-border-subtle); }
+    .faq-header { text-align: center; margin-bottom: var(--space-10); }
+    .faq-header h2 { margin-bottom: var(--space-3); }
+    .faq-list { max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: var(--space-3); }
+    .faq-item { background: var(--color-surface); border: 1px solid var(--color-border-subtle); border-radius: var(--radius-lg); overflow: hidden; }
+    .faq-question {
+      display: flex; align-items: center; justify-content: space-between; gap: var(--space-4);
+      padding: var(--space-5) var(--space-6);
+      background: none; border: none; width: 100%; text-align: left;
+      font-family: var(--font-body); font-size: var(--text-base); font-weight: var(--font-semibold);
+      color: var(--color-primary-dark);
+      cursor: pointer; transition: var(--transition); min-height: 44px;
+    }
+    .faq-question:hover { background: var(--color-surface-alt); }
+    .faq-icon { width: 1.5rem; height: 1.5rem; color: var(--color-primary); flex-shrink: 0; transition: transform var(--duration-normal) var(--ease-default); }
+    .faq-item.open .faq-icon { transform: rotate(45deg); }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height var(--duration-slow) var(--ease-out); }
+    .faq-item.open .faq-answer { max-height: 600px; }
+    .faq-answer-inner { padding: 0 var(--space-6) var(--space-6); font-size: var(--text-base); color: var(--color-text-secondary); line-height: var(--leading-relaxed); }
+    .faq-answer-inner a { color: var(--color-primary); font-weight: var(--font-semibold); }
+
+    /* ============================================================
+       FOOTER
+       ============================================================ */
+    footer { background: var(--color-footer-bg); color: var(--color-text-on-dark); }
+    .footer-main { padding: var(--space-16) 0 var(--space-12); }
+    .footer-grid { display: grid; grid-template-columns: 1fr; gap: var(--space-10); }
+    @media (min-width: 640px) { .footer-grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-8); } }
+    @media (min-width: 1024px) { .footer-grid { grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: var(--space-8); } }
+
+    .footer-logo { font-family: var(--font-heading); font-style: italic; font-weight: var(--font-bold); font-size: var(--text-2xl); color: var(--color-secondary); text-decoration: none; display: block; margin-bottom: var(--space-3); }
+    .footer-logo:hover { color: #fff; text-decoration: none; }
+    .footer-tagline { font-size: var(--text-sm); color: rgba(200,221,209,0.75); line-height: var(--leading-relaxed); margin-bottom: var(--space-5); }
+    .footer-stars { display: flex; align-items: center; gap: var(--space-2); font-size: var(--text-sm); font-weight: var(--font-semibold); color: var(--color-secondary); }
+    .footer-stars svg { width: 1rem; height: 1rem; }
+
+    .footer-col h4 { font-family: var(--font-body); font-size: var(--text-xs); font-weight: var(--font-semibold); letter-spacing: var(--tracking-widest); text-transform: uppercase; color: rgba(200,221,209,0.5); margin-bottom: var(--space-5); }
+    .footer-nav-list { display: flex; flex-direction: column; gap: var(--space-3); }
+    .footer-nav-list a { font-size: var(--text-sm); color: var(--color-primary-xlight); text-decoration: none; transition: var(--transition-fast); }
+    .footer-nav-list a:hover { color: var(--color-secondary); text-decoration: none; }
+
+    .footer-contact address { font-style: normal; }
+    .footer-contact-item { display: flex; align-items: flex-start; gap: var(--space-3); margin-bottom: var(--space-4); }
+    .footer-contact-item:last-child { margin-bottom: 0; }
+    .footer-contact-item svg { width: 1rem; height: 1rem; color: var(--color-secondary); flex-shrink: 0; margin-top: 2px; }
+    .footer-contact-text { font-size: var(--text-sm); color: var(--color-primary-xlight); line-height: var(--leading-relaxed); }
+    .footer-contact-text a { color: var(--color-secondary); font-weight: var(--font-semibold); text-decoration: none; }
+    .footer-contact-text a:hover { color: #fff; }
+
+    .footer-horaires-list { display: flex; flex-direction: column; }
+    .footer-horaires-row { display: flex; justify-content: space-between; gap: var(--space-4); padding: var(--space-2) 0; border-bottom: 1px solid rgba(200,221,209,0.08); font-size: var(--text-sm); }
+    .footer-horaires-row:last-child { border-bottom: none; }
+    .footer-horaires-day { font-weight: var(--font-semibold); color: var(--color-text-on-dark); }
+    .footer-horaires-time { color: rgba(200,221,209,0.7); }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(200,221,209,0.12);
+      padding: var(--space-6) 0;
+      display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: var(--space-4);
+    }
+    .footer-bottom-text { font-size: var(--text-xs); color: rgba(200,221,209,0.45); line-height: var(--leading-relaxed); }
+    .footer-bottom-text a { color: rgba(200,221,209,0.5); }
+    .footer-legal-links { display: flex; gap: var(--space-4); flex-wrap: wrap; }
+    .footer-legal-links a { font-size: var(--text-xs); color: rgba(200,221,209,0.45); text-decoration: none; transition: var(--transition-fast); }
+    .footer-legal-links a:hover { color: var(--color-secondary); }
+
+    /* ============================================================
+       BARRE CTA FLOTTANTE — mobile uniquement
+       ============================================================ */
+    .floating-cta { display: none; }
+    @media (max-width: 767px) {
+      body { padding-bottom: var(--floating-cta-height); }
+      .floating-cta {
+        display: flex;
+        position: fixed;
+        bottom: 0; left: 0; right: 0;
+        height: var(--floating-cta-height);
+        background: var(--color-primary);
+        z-index: var(--z-floating-cta);
+        box-shadow: 0 -4px 20px rgba(26,46,34,0.20);
+        align-items: center;
+        justify-content: center;
+        padding: 0 var(--space-6);
+      }
+    }
+    .floating-cta a {
+      display: flex; align-items: center; justify-content: center; gap: var(--space-3);
+      color: #fff; font-weight: var(--font-bold); font-size: var(--text-base);
+      text-decoration: none; width: 100%;
+    }
+    .floating-cta a:hover { color: #fff; text-decoration: none; }
+
+    /* ============================================================
+       ANIMATIONS AU SCROLL
+       ============================================================ */
+    .animate {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity var(--duration-slower) var(--ease-out),
+                  transform var(--duration-slower) var(--ease-out);
+    }
+    .animate.visible { opacity: 1; transform: translateY(0); }
+    .animate-delay-1 { transition-delay: 100ms; }
+    .animate-delay-2 { transition-delay: 200ms; }
+    .animate-delay-3 { transition-delay: 300ms; }
+    .animate-delay-4 { transition-delay: 400ms; }
+    .animate-delay-5 { transition-delay: 500ms; }
+    @media (prefers-reduced-motion: reduce) {
+      .animate { opacity: 1; transform: none; transition: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Aller au contenu principal</a>
+
+  <!-- ============================================================
+       HEADER — Navigation fixe
+       ============================================================ -->
+  <header id="header" role="banner">
+    <div class="container">
+      <nav class="nav-inner" aria-label="Navigation principale">
+        <a href="#accueil" class="nav-logo" aria-label="T'as où les fleurs — retour à l'accueil">
+          T'as où les fleurs
+        </a>
+
+        <ul class="nav-links" role="list">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#prestations">Prestations</a></li>
+          <li><a href="#mariage">Mariage</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#avis">Avis</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="tel:0277464682" class="nav-phone" aria-label="Appeler le 027 746 46 82">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            027 746 46 82
+          </a>
+          <a href="#contact" class="btn btn-primary btn-sm">Demander un devis</a>
+        </div>
+
+        <button class="nav-hamburger" aria-expanded="false" aria-controls="nav-mobile" aria-label="Ouvrir le menu de navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Menu mobile -->
+  <nav class="nav-mobile" id="nav-mobile" aria-label="Navigation mobile" aria-hidden="true">
+    <ul class="nav-mobile-links" role="list">
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#prestations">Prestations</a></li>
+      <li><a href="#mariage">Mariage</a></li>
+      <li><a href="#deuil">Deuil</a></li>
+      <li><a href="#galerie">Galerie</a></li>
+      <li><a href="#avis">Avis</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <div class="nav-mobile-cta">
+      <a href="tel:0277464682" class="btn btn-phone">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Appeler — 027 746 46 82
+      </a>
+      <a href="#contact" class="btn btn-secondary">Demander un devis</a>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       CONTENU PRINCIPAL
+       ============================================================ -->
+  <main id="main">
+
+    <!-- ========================================================
+         SECTION 1 — HERO
+         ======================================================== -->
+    <section id="accueil" class="hero" aria-labelledby="hero-title">
+      <!--
+        IMAGE PLACEHOLDER PEXELS — REMPLACER PAR LA VRAIE PHOTO DU CLIENT AVANT MISE EN LIGNE
+        Crédit : HONG SON via Pexels (https://www.pexels.com/@hson)
+      -->
+      <img
+        src="https://images.pexels.com/photos/28202387/pexels-photo-28202387.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+        srcset="https://images.pexels.com/photos/28202387/pexels-photo-28202387.jpeg?auto=compress&cs=tinysrgb&h=650&w=940 940w,
+                https://images.pexels.com/photos/28202387/pexels-photo-28202387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 1880w"
+        sizes="100vw"
+        alt="Bouquets de fleurs colorés artisanaux — T'as où les fleurs, fleuriste à Fully Valais"
+        class="hero-image"
+        loading="eager"
+        fetchpriority="high"
+        width="940" height="650"
+      >
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <div class="hero-inner animate">
+          <p class="hero-overline">Fleuriste artisanal · Fully, Valais</p>
+          <h1 id="hero-title">Votre fleuriste artisanal au cœur du vignoble de Fully</h1>
+          <p class="hero-accroche">Des créations florales qui ont du caractère — comme notre nom.</p>
+          <p class="hero-subtitle">Bouquets du quotidien, mariages en vignoble, hommages sincères : T'as où les fleurs compose pour vous des arrangements uniques, avec les couleurs et le souffle du Valais central.</p>
+          <div class="hero-badge">
+            <span class="badge-rating" role="img" aria-label="Note Google : 4.8 étoiles sur 5, basée sur 56 avis">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              4.8/5 · 56 avis Google
+            </span>
+          </div>
+          <div class="hero-ctas">
+            <a href="tel:0277464682" class="btn btn-phone">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              Nous appeler — 027 746 46 82
+            </a>
+            <a href="#galerie" class="btn btn-ghost">Voir nos créations</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 2 — RÉASSURANCE
+         ======================================================== -->
+    <section class="reassurance" aria-labelledby="reassurance-title">
+      <div class="container">
+        <h2 id="reassurance-title" class="sr-only">Pourquoi nous choisir</h2>
+        <div class="reassurance-grid">
+          <div class="reassurance-item animate">
+            <div class="reassurance-icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p class="reassurance-title">4.8/5 sur 56 avis</p>
+            <p class="reassurance-text">La confiance de tout le Valais central</p>
+          </div>
+          <div class="reassurance-item animate animate-delay-1">
+            <div class="reassurance-icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V13"/><path d="M12 13C12 13 7 11 7 7C7 4.5 9 2 12 2C15 2 17 4.5 17 7C17 11 12 13 12 13Z"/><path d="M9 15.5C9 15.5 6 14 6 11"/><path d="M15 15.5C15 15.5 18 14 18 11"/></svg>
+            </div>
+            <p class="reassurance-title">Artisanat local</p>
+            <p class="reassurance-text">Chaque bouquet composé à la main</p>
+          </div>
+          <div class="reassurance-item animate animate-delay-2">
+            <div class="reassurance-icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><line x1="12" y1="3" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="21"/><line x1="3" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="21" y2="12"/><line x1="5.64" y1="5.64" x2="7.76" y2="7.76"/><line x1="16.24" y1="16.24" x2="18.36" y2="18.36"/><line x1="18.36" y1="5.64" x2="16.24" y2="7.76"/><line x1="7.76" y1="16.24" x2="5.64" y2="18.36"/></svg>
+            </div>
+            <p class="reassurance-title">Sur mesure</p>
+            <p class="reassurance-text">Votre budget, vos couleurs, votre style</p>
+          </div>
+          <div class="reassurance-item animate animate-delay-3">
+            <div class="reassurance-icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <p class="reassurance-title">Fully & environs</p>
+            <p class="reassurance-text">Martigny, Saxon, Leytron, Saillon, Charrat</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 3 — À PROPOS
+         ======================================================== -->
+    <section id="apropos" class="about section-py" aria-labelledby="apropos-title">
+      <div class="container">
+        <div class="about-inner">
+          <div class="about-text">
+            <span class="overline">À propos</span>
+            <h2 id="apropos-title" class="animate">Un fleuriste pas comme les autres — et ça se voit dès le nom</h2>
+            <p class="about-lead animate">Derrière le nom qui fait sourire, il y a des mains expertes et une passion sincère pour les fleurs.</p>
+            <p class="animate">Bienvenue Rue de l'Eglise, à Fully. T'as où les fleurs, c'est ce nom qui vous a peut-être fait rire une première fois — et qui vous a donné envie d'entrer. Bien. C'est exactement ça l'idée.</p>
+            <p class="animate">Mais derrière le sourire, il y a un vrai savoir-faire artisanal. Ici, chaque bouquet est créé à la main, avec des fleurs fraîches choisies selon la saison, votre budget et ce que vous voulez faire ressentir à celui ou celle qui le recevra. On ne sélectionne pas des fleurs comme on remplirait un panier. On les choisit.</p>
+            <p class="animate">Fully, c'est aussi notre décor quotidien : les vignes de Petit Arvine en terrasses, les abricotiers en fleurs au printemps, la châtaigneraie en automne. Cette nature généreuse et colorée, on la retrouve dans nos compositions — dans les tons chauds d'une gerbe d'automne, dans la fraîcheur d'un bouquet de mai, dans l'élégance sobre d'un arrangement pour un mariage en cave.</p>
+            <p class="animate">56 avis Google à 4.8/5, c'est notre fierté. Mais notre vraie récompense, c'est le visage de la personne qui reçoit le bouquet.</p>
+            <div class="animate">
+              <a href="#prestations" class="btn btn-primary">Découvrir nos prestations</a>
+            </div>
+          </div>
+
+          <div class="about-visual animate">
+            <!--
+              IMAGE PLACEHOLDER PEXELS — REMPLACER PAR UNE VRAIE PHOTO DE LA BOUTIQUE OU DE LA FLEURISTE
+              Crédit : WASSIM AHMED via Pexels (https://www.pexels.com/@wassimahmed)
+            -->
+            <img
+              src="https://images.pexels.com/photos/34391293/pexels-photo-34391293.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+              srcset="https://images.pexels.com/photos/34391293/pexels-photo-34391293.jpeg?auto=compress&cs=tinysrgb&h=650&w=940 940w,
+                      https://images.pexels.com/photos/34391293/pexels-photo-34391293.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 1880w"
+              alt="Devanture ensoleillée d'un atelier artisanal — ambiance boutique fleuriste Fully Valais"
+              class="about-image"
+              loading="lazy"
+              width="940" height="650"
+            >
+            <div class="about-badge" aria-hidden="true">
+              <div class="about-badge-stars">★★★★★</div>
+              <div class="about-badge-number">4.8</div>
+              <div class="about-badge-label">sur 56 avis Google</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 4 — PRESTATIONS
+         ======================================================== -->
+    <section id="prestations" class="services section-py" aria-labelledby="prestations-title">
+      <div class="container">
+        <header class="services-header animate">
+          <span class="overline">Nos prestations</span>
+          <h2 id="prestations-title">Des fleurs pour chaque moment de votre vie</h2>
+          <p class="subtitle">Du bouquet du quotidien à la décoration d'un grand mariage en vignoble — T'as où les fleurs est à votre service.</p>
+        </header>
+
+        <div class="services-grid">
+          <article class="service-card animate">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><line x1="12" y1="3" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="21"/><line x1="3" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="21" y2="12"/><line x1="5.64" y1="5.64" x2="7.76" y2="7.76"/><line x1="16.24" y1="16.24" x2="18.36" y2="18.36"/><line x1="18.36" y1="5.64" x2="16.24" y2="7.76"/><line x1="7.76" y1="16.24" x2="5.64" y2="18.36"/></svg>
+            </div>
+            <h3>Bouquets artisanaux & compositions florales</h3>
+            <p>Des bouquets créés à la main pour toutes les occasions — anniversaire, naissance, fête, remerciement — avec des fleurs fraîches de saison, toujours sur mesure.</p>
+            <a href="tel:0277464682" class="btn-link" aria-label="Commander un bouquet, appeler le 027 746 46 82">
+              Commander un bouquet
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card animate animate-delay-1">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="14" r="4"/><circle cx="16" cy="10" r="4"/></svg>
+            </div>
+            <h3>Fleurs de mariage — du bouquet à la décoration complète</h3>
+            <p>Un accompagnement floral complet pour votre mariage en Valais : bouquet de mariée, boutonnières, centres de table, arche florale et décoration de salle sur mesure.</p>
+            <a href="#contact" class="btn-link">
+              Demander un devis mariage
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card animate animate-delay-2">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V13"/><path d="M12 13C12 13 7 11 7 7C7 4.5 9 2 12 2C15 2 17 4.5 17 7C17 11 12 13 12 13Z"/></svg>
+            </div>
+            <h3>Fleurs de deuil & condoléances</h3>
+            <p>Gerbes, couronnes, coussins et bouquets de deuil — des compositions dignes et sincères pour rendre un dernier hommage avec respect.</p>
+            <a href="tel:0277464682" class="btn-link" aria-label="Nous appeler pour des fleurs de deuil, 027 746 46 82">
+              Nous appeler directement
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card animate animate-delay-3">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8C8 10 5.9 16.17 3.82 22"/><path d="M17 8s4 2 4 8-4 6-9 6H3.82"/><path d="M17 8c3-3 3-6 3-6s-6 0-9 3-3 6-3 6"/></svg>
+            </div>
+            <h3>Plantes & cadeaux fleuris</h3>
+            <p>Orchidées, succulentes, plantes d'intérieur et compositions en pot — des cadeaux vivants qui durent bien au-delà du bouquet.</p>
+            <a href="#contact" class="btn-link">
+              Découvrir en boutique
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card animate animate-delay-4">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3>Décoration florale pour vos événements</h3>
+            <p>Fête de la châtaigne, vendanges, inauguration, anniversaire ou soirée d'entreprise — des décors floraux sur mesure pour sublimer vos événements privés et professionnels.</p>
+            <a href="#contact" class="btn-link">
+              Demander un devis
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card animate animate-delay-5">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h3>Livraison de fleurs — Fully & environs</h3>
+            <p>Commandez vos fleurs par téléphone et faites-les livrer à domicile ou en entreprise dans le Valais central — Fully, Martigny, Saxon, Leytron, Saillon, Charrat.</p>
+            <a href="tel:0277464682" class="btn-link" aria-label="Commander avec livraison, appeler le 027 746 46 82">
+              Commander avec livraison
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+        </div>
+
+        <div class="services-footer animate">
+          <a href="#contact" class="btn btn-primary">Nous contacter pour une commande</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 5 — MARIAGE
+         ======================================================== -->
+    <section id="mariage" class="mariage section-py" aria-labelledby="mariage-title">
+      <div class="container">
+        <header class="animate">
+          <span class="overline">Fleuristerie de mariage</span>
+          <h2 id="mariage-title">Mariage au vignoble — des fleurs à la hauteur de votre journée</h2>
+          <p class="mariage-subtitle">Votre plus beau jour mérite des fleurs qui lui ressemblent.</p>
+        </header>
+
+        <div class="mariage-inner">
+          <div class="mariage-text animate">
+            <p>Vous préparez votre mariage dans le Valais ? En cave, sur un domaine viticole, dans la vieille église de Saillon, dans les terrasses de Leytron, dans une grange rénovée de Charrat — peu importe le décor, les fleurs que vous choisirez en feront partie pour toujours, dans chaque photo et dans chaque mémoire.</p>
+            <p>Chez T'as où les fleurs, on prend le temps de vous écouter. On discute de votre vision, de vos couleurs, de votre style — champêtre et naturel, élégant et romantique, vignoble et minéral, bohème et sauvage. On ne vous propose pas un package standard. On crée votre mariage en fleurs, de A à Z, depuis la consultation jusqu'à l'installation le jour J.</p>
+
+            <ul class="mariage-list" aria-label="Ce que nous prenons en charge pour votre mariage">
+              <li>Bouquet de mariée (brassée, cascade, rond, monobotanique…)</li>
+              <li>Boutonnières, corsages et coiffes florales</li>
+              <li>Décoration de cérémonie (civile, religieuse ou laïque)</li>
+              <li>Centres de table et compositions pour la réception</li>
+              <li>Arche florale, installation d'entrée, mur végétal</li>
+              <li>Décoration de voiture des mariés</li>
+              <li>Pétales et tapis floraux</li>
+              <li>Livraison et mise en place sur site le jour du mariage</li>
+            </ul>
+
+            <p>La Vallée du Rhône en arrière-plan, les vignes en fond de décor, le Petit Arvine dans les verres — et des fleurs à l'image de tout ça. C'est notre spécialité.</p>
+
+            <div class="mariage-ctas">
+              <a href="#contact" class="btn btn-primary">Demander un devis mariage</a>
+              <a href="tel:0277464682" class="btn btn-ghost">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                027 746 46 82
+              </a>
+            </div>
+          </div>
+
+          <div class="mariage-gallery animate animate-delay-2">
+            <!--
+              IMAGES PLACEHOLDER PEXELS — REMPLACER PAR DE VRAIES PHOTOS DE MARIAGES RÉALISÉS
+              Obtenir l'autorisation des mariés avant toute publication.
+            -->
+            <img
+              src="https://images.pexels.com/photos/14354372/pexels-photo-14354372.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+              alt="Couple de mariés en extérieur — mariage floral artisanal en vignoble valaisan Fully"
+              loading="lazy" width="940" height="650"
+            >
+            <img
+              src="https://images.pexels.com/photos/31517332/pexels-photo-31517332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+              alt="Allée de cérémonie décorée de roses blanches et verdure — décoration florale mariage Fully Valais"
+              loading="lazy" width="940" height="650"
+            >
+            <img
+              src="https://images.pexels.com/photos/8471651/pexels-photo-8471651.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+              alt="Bouquets colorés en vases de verre — centres de table mariage vignoble valaisan"
+              loading="lazy" width="940" height="650"
+            >
+            <img
+              src="https://images.pexels.com/photos/9342923/pexels-photo-9342923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+              alt="Deux bouquets de roses avec gypsophile — bouquet de mariée Fully Valais"
+              loading="lazy" width="940" height="650"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 6 — DEUIL
+         ======================================================== -->
+    <section id="deuil" class="deuil section-py" aria-labelledby="deuil-title">
+      <div class="container">
+        <div class="deuil-inner">
+          <div class="deuil-text animate">
+            <span class="overline">Cérémonies funèbres</span>
+            <h2 id="deuil-title">Accompagnement floral pour les cérémonies de deuil</h2>
+            <p class="deuil-subtitle">Des compositions dignes et sincères pour honorer la mémoire de ceux qui nous ont quittés.</p>
+            <p>Dans les moments de deuil, les fleurs disent ce que les mots peinent à exprimer. Elles portent le respect, l'affection, le souvenir.</p>
+            <p>T'as où les fleurs réalise avec soin des compositions florales pour les cérémonies funèbres : gerbes, couronnes, coussins, bouquets de condoléances. Nous choisissons des fleurs sobres et dignes, dans des teintes apaisantes, pour accompagner les familles avec toute la discrétion que le moment exige.</p>
+            <p>Nous sommes disponibles pour répondre à vos besoins rapidement. En cas d'urgence, appelez-nous directement.</p>
+            <a href="tel:0277464682" class="btn btn-secondary" aria-label="Appeler T'as où les fleurs au 027 746 46 82">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              Nous appeler — 027 746 46 82
+            </a>
+          </div>
+
+          <div class="deuil-visual animate">
+            <!--
+              IMAGES PLACEHOLDER PEXELS — REMPLACER PAR LES VRAIES PHOTOS DU CLIENT
+              Traitement discret. Crédits : DeeP Singh & Lukas Blazek via Pexels
+            -->
+            <div class="deuil-images">
+              <img
+                src="https://images.pexels.com/photos/29860088/pexels-photo-29860088.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                alt="Composition florale blanche sobre dans une église — fleurs de deuil Valais central"
+                loading="lazy" width="940" height="650"
+              >
+              <img
+                src="https://images.pexels.com/photos/305774/pexels-photo-305774.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                alt="Bouquet de roses blanches pour cérémonie — compositions de deuil fleuriste Fully"
+                loading="lazy" width="940" height="650"
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 7 — GALERIE
+         ======================================================== -->
+    <section id="galerie" class="gallery-section section-py" aria-labelledby="galerie-title">
+      <div class="container">
+        <header class="gallery-header animate">
+          <span class="overline">Nos créations</span>
+          <h2 id="galerie-title">Nos créations en images</h2>
+          <p class="subtitle">Bouquets du quotidien, compositions de mariage, créations saisonnières — chaque réalisation est unique et faite à la main.</p>
+        </header>
+
+        <div class="gallery-filters" role="group" aria-label="Filtrer les créations par catégorie">
+          <button class="gallery-filter-btn active" data-filter="all" aria-pressed="true">Tous</button>
+          <button class="gallery-filter-btn" data-filter="bouquets" aria-pressed="false">Bouquets</button>
+          <button class="gallery-filter-btn" data-filter="mariages" aria-pressed="false">Mariages</button>
+          <button class="gallery-filter-btn" data-filter="plantes" aria-pressed="false">Plantes & cadeaux</button>
+        </div>
+
+        <!--
+          IMAGES PLACEHOLDER PEXELS — À REMPLACER PAR LES VRAIES PHOTOS DU CLIENT AVANT MISE EN LIGNE
+          Utiliser des images originales de la boutique et des compositions réalisées.
+        -->
+        <div class="gallery-grid" role="list" aria-label="Galerie de créations florales">
+
+          <figure class="gallery-item animate" data-category="bouquets" role="listitem">
+            <img src="https://images.pexels.com/photos/28202387/pexels-photo-28202387.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Bouquets de fleurs colorés artisanaux — T'as où les fleurs, Fully Valais" loading="lazy" width="940" height="650">
+            <figcaption class="gallery-caption"><p>Compositions artisanales<span class="sr-only"> · Photo : HONG SON / Pexels</span></p></figcaption>
+            <div class="gallery-item-overlay" aria-hidden="true"></div>
+          </figure>
+
+          <figure class="gallery-item animate animate-delay-1" data-category="bouquets" role="listitem">
+            <img src="https://images.pexels.com/photos/28992780/pexels-photo-28992780.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Bouquet d'automne avec chrysanthème orange vif — composition florale artisanale Valais" loading="lazy" width="940" height="650">
+            <figcaption class="gallery-caption"><p>Bouquet d'automne<span class="sr-only"> · Photo : Moabit Dottir / Pexels</span></p></figcaption>
+            <div class="gallery-item-overlay" aria-hidden="true"></div>
+          </figure>
+
+          <figure class="gallery-item animate animate-delay-2" data-category="bouquets" role="listitem">
+            <img src="https://images.pexels.com/photos/18996311/pexels-photo-18996311.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Bouquet multicolore de roses et gerberas en plein soleil — fleuriste artisanal Fully" loading="lazy" width="940" height="650">
+            <figcaption class="gallery-caption"><p>Roses et gerberas<span class="sr-only"> · Photo : Patrick Nizan / Pexels</span></p></figcaption>
+            <div class="gallery-item-overlay" aria-hidden="true"></div>
+          </figure>
+
+          <figure class="gallery-item animate animate-delay-3" data-category="bouquets" role="listitem">
+            <img src="https://images.pexels.com/photos/15560677/pexels-photo-15560677.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Composition de fleurs séchées colorées — création florale artisanale Valais central" loading="lazy" width="940" height="650">
+            <figcaption class="gallery-caption"><p>Fleurs séchées<span class="sr-only"> · Photo : Jonathan Borba / Pexels</span></p></figcaption>
+            <div class="gallery-item-overlay" aria-hidden="true"></div>
+          </figure>
+
+          <figure class="gallery-item animate animate-delay-1" data-category="bouquets" role="listitem">
+            <img src="https://images.pexels.com/photos/20691416/pexels-photo-20691416.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Bouquet de fleurs coloré posé sur table en bois — T'as où les fleurs, Fully Valais" loading="lazy" width="940" height="650">
+            <figcaption class="gallery-caption"><p>Bouquet champêtre<span class="sr-only"> · Photo : Nadia Vasil'eva / Pexels</span></p></figcaption>
+            <div class="gallery-item-overlay" aria-hidden="true"></div>
+          </figure>
+
+          <figure class="gallery-item animate animate-delay-2" data-category="bouquets" role="listitem">
+            <img src="https://images.pexels.com/photos/28738997/pexels-photo-28738997.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Bouquet élégant de roses et lys — composition florale fleuriste Fully Valais" loading="lazy" width="940" height="650">
+            <figcaption class="gallery-caption"><p>Roses et lys<span class="sr-only"> · Photo : Ayrat / Pexels</span></p></figcaption>
+            <div class="gallery-item-overlay" aria-hidden="true"></div>
+          </figure>
+
+          <figure class="gallery-item animate animate-delay-1" data-category="mariages" role="listitem">
+            <img src="https://images.pexels.com/photos/14354372/pexels-photo-14354372.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Couple de mariés en extérieur — mariage floral artisanal en vignoble valaisan" loading="lazy" width="940" height="650">
+            <figcaption class="gallery-caption"><p>Mariage en vignoble<span class="sr-only"> · Photo : amine photographe / Pexels</span></p></figcaption>
+            <div class="gallery-item-overlay" aria-hidden="true"></div>
+          </figure>
+
+          <figure class="gallery-item animate animate-delay-2" data-category="mariages" role="listitem">
+            <img src="https://images.pexels.com/photos/31517332/pexels-photo-31517332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Allée de cérémonie décorée de roses blanches — décoration florale mariage Valais" loading="lazy" width="940" height="650">
+            <figcaption class="gallery-caption"><p>Décoration de cérémonie<span class="sr-only"> · Photo : Dariusz Siniarski / Pexels</span></p></figcaption>
+            <div class="gallery-item-overlay" aria-hidden="true"></div>
+          </figure>
+
+          <figure class="gallery-item animate animate-delay-3" data-category="mariages" role="listitem">
+            <img src="https://images.pexels.com/photos/9342923/pexels-photo-9342923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Bouquets de roses avec gypsophile — bouquet de mariée Fully Valais" loading="lazy" width="940" height="650">
+            <figcaption class="gallery-caption"><p>Bouquet de mariée<span class="sr-only"> · Photo : Rene Terp / Pexels</span></p></figcaption>
+            <div class="gallery-item-overlay" aria-hidden="true"></div>
+          </figure>
+
+          <figure class="gallery-item animate animate-delay-2" data-category="plantes" role="listitem">
+            <img src="https://images.pexels.com/photos/31582039/pexels-photo-31582039.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Orchidée jaune en pot vert — plantes cadeaux fleuriste Fully Valais" loading="lazy" width="940" height="650">
+            <figcaption class="gallery-caption"><p>Orchidée en cadeau<span class="sr-only"> · Photo : Damir K. / Pexels</span></p></figcaption>
+            <div class="gallery-item-overlay" aria-hidden="true"></div>
+          </figure>
+
+          <figure class="gallery-item animate animate-delay-3" data-category="plantes" role="listitem">
+            <img src="https://images.pexels.com/photos/9507308/pexels-photo-9507308.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Femme rempotant des plantes d'intérieur — soin des plantes fleuriste Fully Valais" loading="lazy" width="940" height="650">
+            <figcaption class="gallery-caption"><p>Plantes d'intérieur<span class="sr-only"> · Photo : ROCKETMANN TEAM / Pexels</span></p></figcaption>
+            <div class="gallery-item-overlay" aria-hidden="true"></div>
+          </figure>
+
+          <figure class="gallery-item animate animate-delay-4" data-category="plantes" role="listitem">
+            <img src="https://images.pexels.com/photos/9507309/pexels-photo-9507309.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Composition de plantes vertes en pot soignée — cadeaux vivants fleuriste Fully" loading="lazy" width="940" height="650">
+            <figcaption class="gallery-caption"><p>Composition en pot<span class="sr-only"> · Photo : ROCKETMANN TEAM / Pexels</span></p></figcaption>
+            <div class="gallery-item-overlay" aria-hidden="true"></div>
+          </figure>
+
+        </div>
+
+        <div class="gallery-footer animate">
+          <p class="gallery-footer-note">Du bouquet de mai aux compositions d'automne inspirées de la châtaigneraie de Fully — chaque création est unique et faite à la main.</p>
+          <a href="#contact" class="btn btn-primary">Vous avez un projet en tête ? Contactez-nous</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 8 — AVIS CLIENTS
+         ======================================================== -->
+    <section id="avis" class="testimonials section-py" aria-labelledby="avis-title">
+      <div class="container">
+        <header class="testimonials-header animate">
+          <span class="overline">Ce que disent nos clients</span>
+          <h2 id="avis-title">Ce que nos clients disent de nous</h2>
+          <p class="subtitle">4.8/5 sur Google · 56 avis — une confiance qui nous touche et qui nous pousse chaque jour à faire mieux.</p>
+        </header>
+
+        <div class="rating-showcase animate" aria-label="Note globale 4.8 sur 5 basée sur 56 avis Google">
+          <div class="rating-score" aria-hidden="true">4.8</div>
+          <div class="rating-stars" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="rating-label">Basé sur 56 avis Google</p>
+        </div>
+
+        <!--
+          *** AVIS FICTIFS À REMPLACER OBLIGATOIREMENT ***
+          Les témoignages ci-dessous sont des EXEMPLES FICTIFS rédigés à partir des personas cibles.
+          Ils DOIVENT être remplacés par de vrais avis extraits de la fiche Google My Business
+          "T'as où les fleurs" (4.8/5 sur 56 avis) avant toute mise en ligne.
+          Ne jamais publier ces exemples sans validation explicite du client.
+        -->
+        <div class="testimonials-grid">
+          <article class="testimonial-card animate">
+            <span class="testimonial-quote-mark" aria-hidden="true">"</span>
+            <blockquote>
+              <p class="testimonial-text">J'ai commandé un bouquet pour l'anniversaire de ma maman et je n'ai vraiment pas été déçue. La composition était magnifique, les fleurs très fraîches, l'emballage soigné. Et la fleuriste a pris le temps de me demander exactement ce que je voulais. Rien à voir avec ce qu'on trouve en supermarché. Je reviendrai sans hésiter !</p>
+            </blockquote>
+            <div class="testimonial-stars" aria-label="5 étoiles sur 5">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p class="testimonial-author">Sandrine M.</p>
+            <p class="testimonial-location">Fully</p>
+          </article>
+
+          <article class="testimonial-card animate animate-delay-1">
+            <span class="testimonial-quote-mark" aria-hidden="true">"</span>
+            <blockquote>
+              <p class="testimonial-text">T'as où les fleurs a géré toute la fleuristerie de notre mariage dans un domaine viticole de Leytron. Dès la première consultation, on a compris qu'on était entre de bonnes mains. Le bouquet de mariée était exactement ce que j'avais imaginé — naturel, élégant, parfait. Et la déco de la salle était sublime. Merci du fond du cœur !</p>
+            </blockquote>
+            <div class="testimonial-stars" aria-label="5 étoiles sur 5">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p class="testimonial-author">Aurélie & Damien R.</p>
+            <p class="testimonial-location">Fully</p>
+          </article>
+
+          <article class="testimonial-card animate animate-delay-2">
+            <span class="testimonial-quote-mark" aria-hidden="true">"</span>
+            <blockquote>
+              <p class="testimonial-text">Suite au décès de mon père, j'ai appelé T'as où les fleurs en urgence. Réponse immédiate, voix chaleureuse, efficacité totale. La gerbe était belle et digne, exactement comme on le souhaitait pour lui rendre hommage. Je recommande sincèrement pour leur professionnalisme et leur humanité dans un moment si difficile.</p>
+            </blockquote>
+            <div class="testimonial-stars" aria-label="5 étoiles sur 5">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p class="testimonial-author">Pierre F.</p>
+            <p class="testimonial-location">Saxon</p>
+          </article>
+        </div>
+
+        <div class="testimonials-footer animate">
+          <!--
+            Remplacer l'URL "#" ci-dessous par l'URL réelle de la fiche Google My Business
+            "T'as où les fleurs" — à récupérer auprès du client.
+          -->
+          <a href="#" class="btn btn-secondary" target="_blank" rel="noopener noreferrer" aria-label="Voir tous les avis sur Google My Business (s'ouvre dans un nouvel onglet)">
+            Voir tous les avis sur Google
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 9 — CONTACT & HORAIRES
+         ======================================================== -->
+    <section id="contact" class="contact section-py" aria-labelledby="contact-title">
+      <div class="container">
+        <header class="contact-header animate">
+          <span class="overline">Contact & horaires</span>
+          <h2 id="contact-title">Nous trouver à Fully — Horaires et contact</h2>
+          <p class="subtitle">Venez nous rendre visite Rue de l'Eglise ou appelez-nous — on est là pour vous.</p>
+        </header>
+
+        <div class="contact-grid">
+
+          <!-- Coordonnées -->
+          <div class="contact-info-card animate">
+            <h3>Nos coordonnées</h3>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <span class="contact-detail-label">Adresse</span>
+                <address class="contact-detail-value">
+                  T'as où les fleurs<br>
+                  Rue de l'Eglise 1<br>
+                  1926 Fully<br>
+                  Valais, Suisse
+                </address>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div>
+                <span class="contact-detail-label">Téléphone</span>
+                <div class="contact-detail-value">
+                  <a href="tel:0277464682" aria-label="Appeler le 027 746 46 82">027 746 46 82</a>
+                </div>
+              </div>
+            </div>
+
+            <!--
+              EMAIL À CONFIRMER AVEC LE CLIENT AVANT MISE EN LIGNE
+              Remplacer info@tasoulesfleurs.ch par l'adresse email réelle de la boutique.
+            -->
+            <div class="contact-detail">
+              <div class="contact-detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <span class="contact-detail-label">Email</span>
+                <!-- À CONFIRMER avec le client — remplacer par l'adresse email réelle -->
+                <div class="contact-detail-value">info@tasoulesfleurs.ch</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Horaires -->
+          <div class="horaires-card animate animate-delay-1">
+            <h3>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:inline-block;vertical-align:text-bottom;margin-right:0.375rem;color:var(--color-primary)"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Horaires d'ouverture
+            </h3>
+            <!--
+              HORAIRES À CONFIRMER OBLIGATOIREMENT AVEC LE CLIENT AVANT MISE EN LIGNE
+              Les horaires ci-dessous sont des propositions plausibles — ne pas publier sans validation.
+            -->
+            <div class="horaires-list" aria-label="Horaires d'ouverture">
+              <div class="horaires-row">
+                <span class="horaires-day">Lundi</span>
+                <span class="horaires-time">08h00 – 12h00 / 13h30 – 18h00</span>
+              </div>
+              <div class="horaires-row">
+                <span class="horaires-day">Mardi</span>
+                <span class="horaires-time">08h00 – 12h00 / 13h30 – 18h00</span>
+              </div>
+              <div class="horaires-row">
+                <span class="horaires-day">Mercredi</span>
+                <span class="horaires-time">08h00 – 12h00 / 13h30 – 18h00</span>
+              </div>
+              <div class="horaires-row">
+                <span class="horaires-day">Jeudi</span>
+                <span class="horaires-time">08h00 – 12h00 / 13h30 – 18h00</span>
+              </div>
+              <div class="horaires-row">
+                <span class="horaires-day">Vendredi</span>
+                <span class="horaires-time">08h00 – 12h00 / 13h30 – 18h30</span>
+              </div>
+              <div class="horaires-row">
+                <span class="horaires-day">Samedi</span>
+                <span class="horaires-time">08h00 – 12h00</span>
+              </div>
+              <div class="horaires-row">
+                <span class="horaires-day">Dimanche</span>
+                <span class="horaires-time horaires-ferme">Fermé</span>
+              </div>
+            </div>
+            <p class="horaires-note">Ces horaires sont indicatifs et doivent être confirmés avec le client avant mise en ligne.</p>
+          </div>
+
+          <!-- Formulaire de contact -->
+          <div class="contact-form-card animate animate-delay-2">
+            <h3>Envoyer un message</h3>
+            <!--
+              FORMULAIRE FORMSPREE — CONFIGURATION REQUISE :
+              ==============================================
+              1. Créer un compte sur https://formspree.io (gratuit)
+              2. Créer un formulaire dans votre tableau de bord Formspree
+              3. Remplacer "YOUR_FORMSPREE_ID" dans l'attribut action par votre ID
+                 (exemple : https://formspree.io/f/xbljkrpq)
+              4. Configurer l'email de réception dans Formspree avec l'email du client
+
+              Variable à modifier : action="https://formspree.io/f/YOUR_FORMSPREE_ID"
+
+              Pour test local : ouvrir index.html dans le navigateur.
+              L'envoi ne fonctionnera qu'après déploiement en ligne.
+            -->
+            <form
+              id="contact-form"
+              action="https://formspree.io/f/YOUR_FORMSPREE_ID"
+              method="POST"
+              aria-label="Formulaire de contact T'as où les fleurs"
+            >
+              <div class="contact-form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="fullname">Prénom et nom <span class="required-mark" aria-hidden="true">*</span></label>
+                    <input type="text" id="fullname" name="name" placeholder="Votre nom complet" required autocomplete="name" aria-required="true">
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Téléphone <span class="required-mark" aria-hidden="true">*</span></label>
+                    <input type="tel" id="phone" name="phone" placeholder="027 xxx xx xx" required autocomplete="tel" aria-required="true">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email <span class="required-mark" aria-hidden="true">*</span></label>
+                  <input type="email" id="email" name="email" placeholder="votre@email.ch" required autocomplete="email" aria-required="true">
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="project-type">Type de projet</label>
+                    <select id="project-type" name="type_projet">
+                      <option value="" disabled selected>Choisir…</option>
+                      <option value="bouquet">Bouquet</option>
+                      <option value="mariage">Mariage</option>
+                      <option value="deuil">Deuil</option>
+                      <option value="evenement">Événement</option>
+                      <option value="plantes">Plantes & cadeaux</option>
+                      <option value="autre">Autre</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="event-date">Date souhaitée</label>
+                    <input type="date" id="event-date" name="date_souhaitee" aria-label="Date souhaitée pour votre commande ou événement">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Votre message</label>
+                  <textarea id="message" name="message" placeholder="Décrivez votre projet, vos préférences, votre budget… On s'adapte !" rows="4"></textarea>
+                </div>
+
+                <div class="form-submit-row">
+                  <button type="submit" class="btn btn-primary">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                    Envoyer ma demande
+                  </button>
+                </div>
+
+                <div id="form-success" class="form-success" role="alert" aria-live="polite">
+                  Votre message a bien été envoyé ! Nous vous répondrons dans les meilleurs délais. En attendant, vous pouvez nous appeler directement au <a href="tel:0277464682">027 746 46 82</a>.
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Carte -->
+        <div class="map-section animate">
+          <h3>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color:var(--color-primary)"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Rue de l'Eglise 1 — 1926 Fully
+          </h3>
+          <!--
+            CARTE — Consentement RGPD/nLPD suisse
+            Carte chargée à la demande de l'utilisateur.
+            Utilise OpenStreetMap (open source, respectueux de la vie privée).
+          -->
+          <div class="map-consent-wrapper" id="map-wrapper">
+            <div class="map-consent-poster" id="map-poster">
+              <div class="map-consent-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <h4>Afficher la carte</h4>
+              <p>En chargeant la carte, vous consentez à une connexion vers les serveurs d'OpenStreetMap. Aucun cookie publicitaire n'est utilisé.</p>
+              <button class="btn btn-primary" id="load-map-btn" type="button">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Afficher la carte
+              </button>
+            </div>
+            <iframe
+              id="map-iframe"
+              class="map-iframe"
+              data-src="https://www.openstreetmap.org/export/embed.html?bbox=7.1052%2C46.1267%2C7.1132%2C46.1307&layer=mapnik&marker=46.1287%2C7.1092"
+              title="Localisation T'as où les fleurs — Rue de l'Eglise 1, 1926 Fully, Valais"
+              aria-label="Carte OpenStreetMap montrant l'emplacement de T'as où les fleurs à Fully"
+              width="100%"
+              height="400"
+              allowfullscreen
+              loading="lazy"
+              style="border:0;">
+            </iframe>
+          </div>
+          <p class="map-credit">
+            <a href="https://www.openstreetmap.org/?mlat=46.1287&mlon=7.1092#map=17/46.1287/7.1092" target="_blank" rel="noopener noreferrer" aria-label="Agrandir la carte sur OpenStreetMap (s'ouvre dans un nouvel onglet)">Agrandir la carte sur OpenStreetMap</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION 10 — FAQ
+         ======================================================== -->
+    <section id="faq" class="faq section-py" aria-labelledby="faq-title">
+      <div class="container">
+        <header class="faq-header animate">
+          <span class="overline">FAQ</span>
+          <h2 id="faq-title">Questions fréquentes</h2>
+        </header>
+
+        <dl class="faq-list">
+
+          <div class="faq-item">
+            <dt>
+              <button class="faq-question" aria-expanded="false" aria-controls="faq-a1" id="faq-q1">
+                Peut-on commander un bouquet par téléphone sans se déplacer ?
+                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </button>
+            </dt>
+            <dd class="faq-answer" id="faq-a1" role="region" aria-labelledby="faq-q1">
+              <div class="faq-answer-inner">
+                <p>Oui, absolument. Appelez-nous au <a href="tel:0277464682">027 746 46 82</a> et nous composons votre bouquet selon vos souhaits, votre budget et la date de remise souhaitée. Vous pouvez ensuite le récupérer directement en boutique ou, selon les disponibilités, opter pour la livraison.</p>
+              </div>
+            </dd>
+          </div>
+
+          <div class="faq-item">
+            <dt>
+              <button class="faq-question" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">
+                Proposez-vous un service de livraison à domicile ?
+                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </button>
+            </dt>
+            <dd class="faq-answer" id="faq-a2" role="region" aria-labelledby="faq-q2">
+              <div class="faq-answer-inner">
+                <p>Oui, nous livrons dans la région de Fully et ses environs : Martigny, Saxon, Leytron, Saillon, Charrat et communes voisines. Contactez-nous au <a href="tel:0277464682">027 746 46 82</a> pour connaître les disponibilités, délais et conditions selon votre adresse. Les zones exactes et éventuels frais sont à confirmer avec le client.</p>
+              </div>
+            </dd>
+          </div>
+
+          <div class="faq-item">
+            <dt>
+              <button class="faq-question" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">
+                Comment se déroule une consultation pour un mariage ?
+                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </button>
+            </dt>
+            <dd class="faq-answer" id="faq-a3" role="region" aria-labelledby="faq-q3">
+              <div class="faq-answer-inner">
+                <p>Contactez-nous par téléphone ou via le formulaire pour fixer un rendez-vous. Lors de la consultation, nous discutons de votre vision, votre style, vos couleurs, le lieu de réception et votre budget. Nous vous soumettons ensuite un devis détaillé, gratuit et sans engagement. Plus tôt vous nous contactez, plus nous pouvons garantir votre date.</p>
+              </div>
+            </dd>
+          </div>
+
+          <div class="faq-item">
+            <dt>
+              <button class="faq-question" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">
+                Dans quel délai faut-il commander pour un mariage ou un événement ?
+                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </button>
+            </dt>
+            <dd class="faq-answer" id="faq-a4" role="region" aria-labelledby="faq-q4">
+              <div class="faq-answer-inner">
+                <p>Pour un mariage, nous recommandons de nous contacter au minimum 3 à 6 mois à l'avance. Pour un événement professionnel ou une fête privée, un délai de 2 à 4 semaines est généralement suffisant. Pour un bouquet simple, appelez-nous la veille ou le jour même — sous réserve de disponibilité.</p>
+              </div>
+            </dd>
+          </div>
+
+          <div class="faq-item">
+            <dt>
+              <button class="faq-question" aria-expanded="false" aria-controls="faq-a5" id="faq-q5">
+                Travaillez-vous avec des fleurs de saison locales ?
+                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </button>
+            </dt>
+            <dd class="faq-answer" id="faq-a5" role="region" aria-labelledby="faq-q5">
+              <div class="faq-answer-inner">
+                <p>Nous travaillons en priorité avec des fleurs de saison pour garantir fraîcheur et qualité. Le Valais central inspire nos palettes : couleurs des abricotiers au printemps, des vignes en automne, de la châtaigneraie en octobre. Pour des fleurs spécifiques hors saison, nous pouvons commander sur demande avec un délai d'approvisionnement.</p>
+              </div>
+            </dd>
+          </div>
+
+        </dl>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-grid">
+
+          <!-- Colonne 1 — Marque -->
+          <div>
+            <a href="#accueil" class="footer-logo" aria-label="T'as où les fleurs — retour à l'accueil">T'as où les fleurs</a>
+            <p class="footer-tagline">Fleuriste artisanal à Fully, Valais — créations florales sur mesure depuis le cœur du vignoble valaisan.</p>
+            <div class="footer-stars" aria-label="Note Google 4.8 étoiles sur 5">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <span>4.8/5 sur 56 avis Google</span>
+            </div>
+          </div>
+
+          <!-- Colonne 2 — Navigation -->
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <nav aria-label="Navigation du pied de page">
+              <ul class="footer-nav-list">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#prestations">Prestations</a></li>
+                <li><a href="#mariage">Mariage</a></li>
+                <li><a href="#deuil">Deuil</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#avis">Avis</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#faq">FAQ</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- Colonne 3 — Contact -->
+          <div class="footer-col footer-contact">
+            <h4>Contact</h4>
+            <address>
+              <div class="footer-contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span class="footer-contact-text">Rue de l'Eglise 1<br>1926 Fully, Valais</span>
+              </div>
+              <div class="footer-contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                <span class="footer-contact-text"><a href="tel:0277464682">027 746 46 82</a></span>
+              </div>
+              <!-- EMAIL À CONFIRMER -->
+              <div class="footer-contact-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <!-- À CONFIRMER avec le client -->
+                <span class="footer-contact-text">info@tasoulesfleurs.ch</span>
+              </div>
+            </address>
+          </div>
+
+          <!-- Colonne 4 — Horaires -->
+          <div class="footer-col">
+            <h4>Horaires</h4>
+            <!-- HORAIRES À CONFIRMER -->
+            <div class="footer-horaires-list" aria-label="Horaires condensés">
+              <div class="footer-horaires-row">
+                <span class="footer-horaires-day">Lun – Jeu</span>
+                <span class="footer-horaires-time">08h–12h / 13h30–18h</span>
+              </div>
+              <div class="footer-horaires-row">
+                <span class="footer-horaires-day">Vendredi</span>
+                <span class="footer-horaires-time">08h–12h / 13h30–18h30</span>
+              </div>
+              <div class="footer-horaires-row">
+                <span class="footer-horaires-day">Samedi</span>
+                <span class="footer-horaires-time">08h00 – 12h00</span>
+              </div>
+              <div class="footer-horaires-row">
+                <span class="footer-horaires-day">Dimanche</span>
+                <span class="footer-horaires-time" style="color:rgba(200,221,209,0.4);">Fermé</span>
+              </div>
+            </div>
+            <p style="font-size:var(--text-xs);color:rgba(200,221,209,0.35);margin-top:var(--space-3);font-style:italic;">Horaires à confirmer avec le client.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          <p class="footer-bottom-text">&copy; 2026 T'as où les fleurs — Tous droits réservés</p>
+          <p class="footer-bottom-text" style="margin-top:var(--space-1);">
+            Photos d'illustration : <a href="https://www.pexels.com" target="_blank" rel="noopener noreferrer">Pexels</a> — À remplacer par les vraies photos du client avant mise en ligne.
+          </p>
+        </div>
+        <div class="footer-legal-links">
+          <a href="#">Mentions légales</a>
+          <a href="#">Politique de confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       BARRE CTA FLOTTANTE — Mobile uniquement
+       ============================================================ -->
+  <div class="floating-cta" role="complementary" aria-label="Appel rapide">
+    <a href="tel:0277464682" aria-label="Appeler T'as où les fleurs au 027 746 46 82">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+      Appeler — 027 746 46 82
+    </a>
+  </div>
+
+  <script>
+    (function () {
+      'use strict';
+
+      /* ============================================================
+         NAVIGATION — sticky, hamburger, active link
+         ============================================================ */
+      var header     = document.getElementById('header');
+      var hamburger  = document.querySelector('.nav-hamburger');
+      var mobileMenu = document.getElementById('nav-mobile');
+      var mobileLinks = document.querySelectorAll('.nav-mobile-links a, .nav-mobile-cta a[href^="#"]');
+
+      function updateHeaderState() {
+        header.classList.toggle('scrolled', window.scrollY > 20);
+      }
+      window.addEventListener('scroll', updateHeaderState, { passive: true });
+      updateHeaderState();
+
+      function closeMobileMenu() {
+        mobileMenu.classList.remove('open');
+        mobileMenu.setAttribute('aria-hidden', 'true');
+        hamburger.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      }
+
+      hamburger.addEventListener('click', function () {
+        var isOpen = mobileMenu.classList.contains('open');
+        if (isOpen) {
+          closeMobileMenu();
+        } else {
+          mobileMenu.classList.add('open');
+          mobileMenu.setAttribute('aria-hidden', 'false');
+          hamburger.setAttribute('aria-expanded', 'true');
+          document.body.style.overflow = 'hidden';
+        }
+      });
+
+      mobileLinks.forEach(function (link) {
+        link.addEventListener('click', closeMobileMenu);
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && mobileMenu.classList.contains('open')) {
+          closeMobileMenu();
+          hamburger.focus();
+        }
+      });
+
+      /* -------- Lien actif au scroll -------- */
+      var sections = document.querySelectorAll('section[id]');
+      var navLinks  = document.querySelectorAll('.nav-links a[href^="#"]');
+
+      function updateActiveLink() {
+        var current = '';
+        sections.forEach(function (s) {
+          if (window.scrollY >= s.offsetTop - 100) current = s.id;
+        });
+        navLinks.forEach(function (a) {
+          a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+        });
+      }
+      window.addEventListener('scroll', updateActiveLink, { passive: true });
+
+      /* ============================================================
+         FAQ ACCORDÉON
+         ============================================================ */
+      var faqItems = document.querySelectorAll('.faq-item');
+      faqItems.forEach(function (item) {
+        item.querySelector('.faq-question').addEventListener('click', function () {
+          var isOpen = item.classList.contains('open');
+          faqItems.forEach(function (i) {
+            i.classList.remove('open');
+            i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+          });
+          if (!isOpen) {
+            item.classList.add('open');
+            this.setAttribute('aria-expanded', 'true');
+          }
+        });
+      });
+
+      /* ============================================================
+         GALERIE — filtre par catégorie
+         ============================================================ */
+      var filterBtns   = document.querySelectorAll('.gallery-filter-btn');
+      var galleryItems = document.querySelectorAll('.gallery-item');
+
+      filterBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var cat = btn.dataset.filter;
+          filterBtns.forEach(function (b) {
+            b.classList.remove('active');
+            b.setAttribute('aria-pressed', 'false');
+          });
+          btn.classList.add('active');
+          btn.setAttribute('aria-pressed', 'true');
+          galleryItems.forEach(function (item) {
+            item.classList.toggle('hidden', cat !== 'all' && item.dataset.category !== cat);
+          });
+        });
+      });
+
+      /* ============================================================
+         FORMULAIRE — envoi async + confirmation
+         ============================================================ */
+      var contactForm = document.getElementById('contact-form');
+      var formSuccess = document.getElementById('form-success');
+
+      if (contactForm) {
+        contactForm.addEventListener('submit', function (e) {
+          e.preventDefault();
+          var btn = contactForm.querySelector('button[type="submit"]');
+          var origHTML = btn.innerHTML;
+          btn.disabled = true;
+          btn.textContent = 'Envoi en cours…';
+
+          fetch(contactForm.action, {
+            method: 'POST',
+            body: new FormData(contactForm),
+            headers: { 'Accept': 'application/json' }
+          }).then(function (r) {
+            if (r.ok) {
+              contactForm.reset();
+              contactForm.style.display = 'none';
+              formSuccess.style.display = 'block';
+              formSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            } else {
+              throw new Error('HTTP ' + r.status);
+            }
+          }).catch(function () {
+            btn.disabled = false;
+            btn.innerHTML = origHTML;
+            alert('Une erreur est survenue. Veuillez nous contacter directement au 027 746 46 82.');
+          });
+        });
+      }
+
+      /* ============================================================
+         CARTE — consentement au chargement
+         ============================================================ */
+      var loadMapBtn = document.getElementById('load-map-btn');
+      var mapIframe  = document.getElementById('map-iframe');
+      var mapPoster  = document.getElementById('map-poster');
+
+      if (loadMapBtn) {
+        loadMapBtn.addEventListener('click', function () {
+          mapIframe.src = mapIframe.dataset.src;
+          mapIframe.classList.add('loaded');
+          mapPoster.style.display = 'none';
+        });
+      }
+
+      /* ============================================================
+         ANIMATIONS AU SCROLL — IntersectionObserver
+         ============================================================ */
+      if ('IntersectionObserver' in window) {
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+        document.querySelectorAll('.animate').forEach(function (el) {
+          observer.observe(el);
+        });
+      } else {
+        document.querySelectorAll('.animate').forEach(function (el) {
+          el.classList.add('visible');
+        });
+      }
+
+    })();
+  </script>
+</body>
+</html>
