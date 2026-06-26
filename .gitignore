@@ -1,0 +1,5 @@
+# Fichiers internes du pipeline (non destinés au site public)
+analyse.md
+design_tokens.json
+image_assets.json
+images/gmaps_manifest.json
