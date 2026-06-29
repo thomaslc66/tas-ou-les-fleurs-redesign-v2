@@ -41,52 +41,33 @@
 
       /* ============================ TOKENS ============================ */
       :root {
-        --green: #4a7c59;
-        --green-press: #3d6849;
-        --forest: #1f3d2b;
+        --green: #6cae81;
+        --green-press: #5a9b6f;
+        --forest: #16271c;
         --star: #e7913f; /* abricot, réservé à la note (étoiles) */
-        --ink: #1a2e22;
-        --ink-soft: #46604f;
-        --paper: #f1ebe1;
-        --paper-2: #e9e1d3;
-        --surface: #ffffff;
-        --line: rgba(26, 46, 34, 0.13);
-        --line-strong: rgba(26, 46, 34, 0.24);
+        --ink: #eef2ea;
+        --ink-soft: #aebcb1;
+        --paper: #141d18;
+        --paper-2: #1b251f;
+        --surface: #1f2a23;
+        --line: rgba(238, 242, 234, 0.14);
+        --line-strong: rgba(238, 242, 234, 0.26);
         --on-green: #ffffff;
 
-        /* Panneaux sombres (mêmes 2 thèmes) */
-        --panel: #1f3d2b;
-        --panel-fg: #f3efe6;
-        --panel-muted: rgba(243, 239, 230, 0.74);
-        --panel-line: rgba(255, 255, 255, 0.14);
+        /* Thème unique forcé vert (ex-dark) */
+        --panel: #1a2a20;
+        --panel-fg: #eef2ea;
+        --panel-muted: rgba(238, 242, 234, 0.72);
+        --panel-line: rgba(238, 242, 234, 0.13);
 
         --r: 16px;
         --r-lg: 24px;
         --pill: 999px;
-        --shadow: 0 20px 50px -28px rgba(31, 61, 43, 0.5);
+        --shadow: 0 20px 50px -28px rgba(0, 0, 0, 0.7);
         --maxw: 1260px;
 
         --font-display: "Schibsted Grotesk", system-ui, "Segoe UI", sans-serif;
         --font-body: "DM Sans", system-ui, "Segoe UI", sans-serif;
-      }
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --green: #6cae81;
-          --green-press: #5a9b6f;
-          --forest: #16271c;
-          --ink: #eef2ea;
-          --ink-soft: #aebcb1;
-          --paper: #141d18;
-          --paper-2: #1b251f;
-          --surface: #1f2a23;
-          --line: rgba(238, 242, 234, 0.14);
-          --line-strong: rgba(238, 242, 234, 0.26);
-          --panel: #1a2a20;
-          --panel-fg: #eef2ea;
-          --panel-muted: rgba(238, 242, 234, 0.72);
-          --panel-line: rgba(238, 242, 234, 0.13);
-          --shadow: 0 20px 50px -28px rgba(0, 0, 0, 0.7);
-        }
       }
 
       /* ============================ BASE ============================ */
@@ -796,5 +777,22 @@
         });
       })();
     </script>
-  </body>
+  <!-- WRX_CTA_START -->
+<a href="https://calendar.app.google/22jLWEK1tTnxfVNW6" target="_blank" rel="noopener" class="wrx-cta" aria-label="Le site m'intéresse, prendre rendez-vous">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+  </svg>
+  <span>Le site m'intéresse</span>
+</a>
+<style>
+.wrx-cta{position:fixed;right:20px;bottom:20px;z-index:99999;display:inline-flex;align-items:center;gap:10px;padding:14px 22px;background:#2e7d46;color:#fff;font:600 15px/1 system-ui,-apple-system,"Segoe UI",sans-serif;border-radius:999px;box-shadow:0 12px 34px -10px rgba(0,0,0,.5);text-decoration:none;transition:transform .18s ease,background .18s ease;animation:wrxpop .5s ease both}
+.wrx-cta:hover{background:#256b3a;transform:translateY(-2px)}
+.wrx-cta:active{transform:translateY(0)}
+.wrx-cta svg{width:20px;height:20px;flex:none}
+@keyframes wrxpop{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:560px){.wrx-cta span{display:none}.wrx-cta{padding:14px;right:16px;bottom:16px}}
+@media(prefers-reduced-motion:reduce){.wrx-cta{animation:none;transition:none}}
+</style>
+<!-- WRX_CTA_END -->
+</body>
 </html>
